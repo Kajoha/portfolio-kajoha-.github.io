@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'cocogoose';
+  src: local("cocogoose"), url(/font/cocogoose.ttf) format("cocogoose"); }
+
+html {
+  background-color: #081329; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 1080px; }
