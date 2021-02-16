@@ -1,14 +1,3 @@
-// Setting Fonts
-
-@font-face {
-  font-family:'cocogoose';
-  src: local('cocogoose'),
-      url(/font/cocogoose.ttf) format('cocogoose');
-}
-
-$fontMain: 'cocogoose';
-$fontSecundary: 'Arial Narrow Bold';
-
 //Setting Colors
 
 $blue-main: #081329;
@@ -17,7 +6,23 @@ $purple: #8368CF;
 $white: #FFFFFF;
 
 
-// Fonts variables
 
-$titles: $fontMain $white;
-$subtitles: $fontSecundary $white;
+
+// Fonts variables
+$size: 1rem;
+
+$title-h1: $size * 3;
+$title-h2: $size * 2;
+$parra: $size;
+
+
+
+// size-margin
+
+$value: 10px;
+
+$s: $value * 2;
+$m: $value * 4;
+$l: $value * 6;
+$xl: $value * 8;
+$xxl: $value * 10;

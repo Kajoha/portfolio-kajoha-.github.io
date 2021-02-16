@@ -1,8 +1,37 @@
 html {
   background-color: $blue-main;
+  font-size: 100%;
 }
 
 .wrapper{
   margin: 0 auto;
   width: 1080px;
+ // background-color: rgb(70, 55, 53);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.style-link {
+  a {
+    color: $white;
+    font-family: $global-font;
+    font-size: 1rem;
+    margin-right: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover{
+      color: $blue-secondary;
+    }
+
+  }
+}
+
+.active {
+  a{
+    color: $blue-secondary;
+  }
 }

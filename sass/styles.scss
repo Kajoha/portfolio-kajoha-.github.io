@@ -1,2 +1,10 @@
+// Setting
+
+@import 'library/normalize';
+@import 'setting/fonts';
 @import 'setting/variables';
+@import 'setting/funtions';
 @import 'setting/globals';
+
+// components
+@import 'components/nav';

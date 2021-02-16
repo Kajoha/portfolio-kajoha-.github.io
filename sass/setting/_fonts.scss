@@ -1,0 +1,12 @@
+// Setting Fonts
+
+@font-face {
+  font-family:'cocogoose';
+  src: local('cocogoose'),
+      url(/font/cocogoose.ttf) format('cocogoose');
+}
+
+$fontMain: 'cocogoose';
+$global-font: 'Arial';
+
+$size: 1rem;

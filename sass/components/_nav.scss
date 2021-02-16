@@ -1,0 +1,19 @@
+//Navegations
+#nav {
+padding-top: $s;
+}
+
+#logo {
+  display: inline-block;
+  width: 50%;
+
+  img {
+    width: 25%;
+  }
+}
+
+#items-nav  {
+  float: right;
+  margin-top: $s;
+}
+
