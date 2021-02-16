@@ -1,37 +1,21 @@
 html {
   background-color: $blue-main;
+  font-family: $global-font;
+  color: $white;
   font-size: 100%;
 }
 
-.wrapper{
-  margin: 0 auto;
-  width: 1080px;
- // background-color: rgb(70, 55, 53);
+body {
+  background-image: url('/images/backgroup.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+h1 {
+  font-size: $title-h1;
 }
 
-.style-link {
-  a {
-    color: $white;
-    font-family: $global-font;
-    font-size: 1rem;
-    margin-right: 1em;
-    text-decoration: none;
-    text-transform: uppercase;
-    &:hover{
-      color: $blue-secondary;
-    }
-
-  }
+h2 {
+  font-size: $title-h2;
 }
 
-.active {
-  a{
-    color: $blue-secondary;
-  }
-}

@@ -11,8 +11,8 @@ $white: #FFFFFF;
 // Fonts variables
 $size: 1rem;
 
-$title-h1: $size * 3;
-$title-h2: $size * 2;
+$title-h1: $size * 2.8;
+$title-h2: $size * 1.8;
 $parra: $size;
 
 
@@ -21,8 +21,11 @@ $parra: $size;
 
 $value: 10px;
 
+$xs: $value *1.6;
 $s: $value * 2;
 $m: $value * 4;
 $l: $value * 6;
 $xl: $value * 8;
 $xxl: $value * 10;
+$xxl3: $value * 13;
+$xxl6: $value * 16;
