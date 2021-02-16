@@ -3,8 +3,13 @@
 @import 'library/normalize';
 @import 'setting/fonts';
 @import 'setting/variables';
-@import 'setting/funtions';
 @import 'setting/globals';
+@import 'setting/helper';
 
 // components
 @import 'components/nav';
+@import 'components/home';
+@import 'components/social';
+@import 'components/carousel';
+@import 'components/form';
+@import 'components/footer';

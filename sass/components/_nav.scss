@@ -1,18 +1,20 @@
 //Navegations
 #nav {
 padding-top: $s;
+background-color: transparentize($color: $blue-main, $amount: 0.4);
+/*position: fixed;*/
 }
 
-#logo {
+.logo {
   display: inline-block;
-  width: 50%;
+  width: 40%;
 
   img {
-    width: 25%;
+    width: 30%;
   }
 }
 
-#items-nav  {
+.items-nav  {
   float: right;
   margin-top: $s;
 }

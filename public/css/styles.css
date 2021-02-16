@@ -309,7 +309,20 @@ template {
 
 html {
   background-color: #081329;
+  font-family: "Arial";
+  color: #FFFFFF;
   font-size: 100%; }
+
+body {
+  background-image: url("/images/backgroup.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+h1 {
+  font-size: 2.8rem; }
+
+h2 {
+  font-size: 1.8rem; }
 
 .wrapper {
   margin: 0 auto;
@@ -322,26 +335,155 @@ html {
 
 .style-link a {
   color: #FFFFFF;
-  font-family: "Arial";
   font-size: 1rem;
-  margin-right: 1em;
+  margin-right: 16px;
   text-decoration: none;
   text-transform: uppercase; }
   .style-link a:hover {
     color: #20C9AC; }
 
-.active a {
-  color: #20C9AC; }
+.container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.titleItalic {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0; }
+
+.title {
+  font-family: "cocogoose";
+  margin: 0; }
+
+.margin-left {
+  margin-left: 40px; }
+
+.center {
+  width: 50%; }
+
+.date {
+  padding-left: 65%; }
+
+.top {
+  padding-top: 40px; }
 
 #nav {
-  padding-top: 20px; }
+  padding-top: 20px;
+  background-color: rgba(8, 19, 41, 0.6);
+  /*position: fixed;*/ }
 
-#logo {
+.logo {
   display: inline-block;
-  width: 50%; }
-  #logo img {
-    width: 25%; }
+  width: 40%; }
+  .logo img {
+    width: 30%; }
 
-#items-nav {
+.items-nav {
   float: right;
   margin-top: 20px; }
+
+#image-welcome {
+  height: 480px;
+  width: 455px;
+  background-image: url("/images/banner/karen-mendez-home.png");
+  border-radius: 50%; }
+  #image-welcome:hover {
+    background-image: url("/images/banner/karen-mendez-home-color.png");
+    border-radius: 50%; }
+
+#more-about-me p {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin-left: 20%;
+  width: 65%; }
+
+#more-about-me #link {
+  margin-left: 65%; }
+
+#photo-about-me-home {
+  background-image: url("/images/banner/more-about-me-home.png");
+  border-radius: 50%;
+  height: 412px;
+  margin-left: 80px;
+  width: 417px; }
+  #photo-about-me-home:hover {
+    background-image: url("/images/banner/more-about-me-home-color.png");
+    border-radius: 50%; }
+
+#events {
+  margin-left: 60px; }
+
+.social {
+  width: 60px;
+  height: 160px; }
+
+#github {
+  padding-top: 100px;
+  width: 100%; }
+
+#img-github {
+  width: 60px;
+  width: 60px; }
+
+#content-github {
+  border-radius: 0.5%;
+  height: 300px;
+  width: 700px; }
+
+#findings {
+  background-image: url("/images/backgroup/blue-xl.svg");
+  background-size: cover;
+  width: 100%; }
+  #findings p {
+    color: #081329; }
+
+.slide-dot {
+  margin-left: 50%;
+  padding-bottom: 60px; }
+  .slide-dot button {
+    float: left;
+    margin-right: 10px;
+    border-style: none;
+    padding: 6px;
+    background-color: #FFFFFF;
+    border-radius: 16px; }
+    .slide-dot button:hover {
+      background-color: #081329; }
+
+.dot-active {
+  background-color: #20C9AC; }
+
+#contact-me {
+  padding-left: 32%; }
+
+.form-butoon {
+  display: block;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  padding: 10px 16px;
+  outline: none;
+  width: 100%; }
+
+.width {
+  margin-bottom: 80px; }
+
+.button {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 1rem;
+  color: #081329;
+  padding: 8px 30px;
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 80%;
+  outline: none;
+  text-transform: capitalize; }
+  .button:hover {
+    background-color: #20C9AC; }
+
+#logo-karen {
+  width: 100%;
+  float: right; }
+  #logo-karen img {
+    width: 30%; }
