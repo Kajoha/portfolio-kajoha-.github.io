@@ -416,10 +416,10 @@ h2 {
 #image-welcome {
   height: 379px;
   width: 380px;
-  background-image: url("/images/banner/karen-mendez-home.png");
+  background-image: url("images/banner/karen-mendez-home.png");
   border-radius: 50%; }
   #image-welcome:hover {
-    background-image: url("/images/banner/karen-mendez-home-color.png");
+    background-image: url("images/banner/karen-mendez-home-color.png");
     border-radius: 50%; }
 
 #more-about-me {
@@ -434,13 +434,13 @@ h2 {
   width: 65%; }
 
 #photo-about-me-home {
-  background-image: url("/images/banner/more-about-me-home.png");
+  background-image: url("images/banner/more-about-me-home.png");
   border-radius: 50%;
   height: 297px;
   margin-left: 10%;
   width: 307px; }
   #photo-about-me-home:hover {
-    background-image: url("/images/banner/more-about-me-home-color.png");
+    background-image: url("images/banner/more-about-me-home-color.png");
     border-radius: 50%; }
 
 #link {
