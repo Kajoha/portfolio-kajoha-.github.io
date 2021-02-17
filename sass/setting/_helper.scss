@@ -23,9 +23,28 @@
   }
 }
 
+.top-l {
+  padding-top: $l;
+}
+
+.top-m {
+  padding-top: $m;
+}
+
+.top-s {
+  padding-top: $s;
+}
+
 .container {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -41,19 +60,20 @@
 }
 
 .margin-left {
-  margin-left: $m;
+  margin-left: $s;
 }
 
 .center {
-  width: 50%;
+  width: $xxl5;
 }
 
 .date {
-  padding-left: 65%;
+  padding-left: $xxl6;
 }
 
-.top {
-  padding-top: $m;
+.color-background {
+  background-color: $blue-main;
 }
+
 
 

@@ -11,21 +11,24 @@ $white: #FFFFFF;
 // Fonts variables
 $size: 1rem;
 
-$title-h1: $size * 2.8;
-$title-h2: $size * 1.8;
+$title-h1: $size * 2.3;
+$title-h2: $size * 2.1;
+$parra-large: $size * 1.5;
 $parra: $size;
 
 
 
 // size-margin
 
-$value: 10px;
+$value: 1%;
 
-$xs: $value *1.6;
-$s: $value * 2;
-$m: $value * 4;
-$l: $value * 6;
-$xl: $value * 8;
-$xxl: $value * 10;
-$xxl3: $value * 13;
-$xxl6: $value * 16;
+$xs: $value *2;
+$s: $value * 5;
+$m: $value * 10;
+$l: $value * 16;
+$xl: $value * 22;
+$xxl: $value * 30;
+$xxl4: $value * 40;
+$xxl5: $value * 50;
+$xxl6: $value * 65;
+$xxl10: $value * 100;
