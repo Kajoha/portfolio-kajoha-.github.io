@@ -22,22 +22,24 @@
   </head>
 
   <body>
+
+    <div id="nav" class="flex-between">
+      <div class="logo">
+       <a href="index.html"><img src="images/logo.svg" alt="Logo Enka-Creative"></a>
+      </div>
+      <div class="items-nav style-link">
+        <a href="index.html">Home</a>
+        <a href="about-me.html">About me</a>
+        <a href="design.html">Design</a>
+        <a href="web-development.html">Web</a>
+        <a href="contact.html">Contact</a>
+        </ul>
+      </div>
+    </div>
+
     <div class="wrapper">
 
-      <div id="nav" class="clearfix">
-        <div class="logo">
-         <a href="index.html"><img src="images/logo.svg" alt="Logo Enka-Creative"></a>
-        </div>
-        <div class="items-nav style-link">
-          <a href="about-me.html">About me</a>
-          <a href="design.html">Design</a>
-          <a href="web-development.html">Web</a>
-          <a href="contact.html">Contact</a>
-          </ul>
-        </div>
-      </div>
-
-      <div id="welcome" class="container top">
+      <div id="welcome" class="container top-l">
         <div id="image-welcome">
         </div>
         <div id="title-home" class="margin-left">
@@ -47,23 +49,24 @@
         </div>
       </div>
 
-      <div id="more-about-me">
-        <p>Mi formación profesional me ha permitido
+      <div id="more-about-me" class="container">
+        <p class="paragraph">Mi formación profesional me ha permitido
           ser transversal y complementar mis
-          conocimientos tecnicos con mi proceso
+          conocimientos técnicos con mi proceso
           creativo.</p>
-          <div id="link" class="style-link"><a href="about-me.html">formación profesional aquí</a> </div>
+      </div>
+      <div id="link" class="style-link"><a href="about-me.html">formación profesional aquí</a> </div>
+
+      <div id="social" class="social">
+        <a href=""><img src="/images/elements/linkedin.svg" alt="ver perfil en linkedin"></a>
+        <a href=""><img src="/images/elements/instagram.svg" alt="ver perfil en Instagram"></a>
+        <a href=""><img src="/images/elements/behance.svg" alt="ver perfil en behance"></a>
+        <a href=""><img src="/images/elements/twitter.svg" alt="ver perfil en twitter"></a>
       </div>
 
       <div id="about-me-home" class="container">
-        <div id="social" class="social">
-          <a href=""><img src="/images/elements/linkedin.svg" alt="ver perfil en linkedin"></a>
-          <a href=""><img src="/images/elements/instagram.svg" alt="ver perfil en Instagram"></a>
-          <a href=""><img src="/images/elements/behance.svg" alt="ver perfil en behance"></a>
-          <a href=""><img src="/images/elements/twitter.svg" alt="ver perfil en twitter"></a>
-        </div>
         <div id="photo-about-me-home"></div>
-        <div id="events">
+        <div id="events" class="margin-left">
           <h2>Últimos eventos</h2>
           <p>Drupal camp Costa Rica 2020 - Staff técnico</p>
           <p>Startup Weeked Costa Rica 2019 - Pitcher</p>
@@ -82,7 +85,7 @@
     </div>
 
     <div id="findings">
-      <div class="container top">
+      <div class="container findings-top">
         <div><img src="/images/carousel/diana-gutierrez.png" alt="Fotografia de Diana Gutierrez"></div>
         <p class="center margin-left">
            “El trabajo de Karen es sencillamente impecable. Además de su trato amable, entiende a la perfección las necesidades de mi empresa y no solamente hace lo que solicito sino que me da ideas prácticas y consejos útiles. Tiene un sentido de urgencia y amor por su trabajo que admiro y me hace seguirla eligiendo.”
@@ -100,7 +103,7 @@
 
     <div class="wrapper">
 
-      <div id="contact-me" class="container top">
+      <div id="contact-me" class="flex-between top-l">
         <div id="form">
           <form class="width">
             <h2>Contacta conmigo</h2>
@@ -125,7 +128,7 @@
       </div>
 
       <div id="footer">
-        <div id="logo-karen" class="clearfix">
+        <div id="logo-karen" class="color-background">
           <img src="/images/karen-mendez.svg" alt="Logo Karen Méndez">
         </div>
       </div>
