@@ -1,6 +1,6 @@
 #image-welcome {
-  height: 480px;
-  width: 455px;
+  height: 379px;
+  width: 380px;
 
   background-image:
     url('/images/banner/karen-mendez-home.png');
@@ -12,15 +12,17 @@
 }
 
 #more-about-me {
-  p{
-    font-size: $title-h2;
-    font-style: italic;
-    margin-left: 20%;
-    width: 65%;
-  }
+  margin-top: $m;
   #link {
-    margin-left: 65%;
+    margin-left: $xl;
   }
+}
+
+.paragraph{
+  font-size: $parra-large;
+  font-style: italic;
+  margin-left: $m;
+  width: $xxl6;
 }
 
 #photo-about-me-home {
@@ -33,12 +35,12 @@
     border-radius: 50%;
   }
 
-  height: 412px;
-  margin-left: $xl;
-  width: 417px;
+  height: 297px;
+  margin-left: $m;
+  width: 307px;
 
 }
 
-#events {
-  margin-left: $l;
+#link {
+  margin-left: $xxl6;
 }

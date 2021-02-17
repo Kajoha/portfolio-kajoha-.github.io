@@ -1,21 +1,21 @@
 //Navegations
 #nav {
-padding-top: $s;
-background-color: transparentize($color: $blue-main, $amount: 0.4);
-/*position: fixed;*/
+padding-top: $xs;
+background-color: transparentize($color: $blue-main, $amount: 0.3);
+position: fixed;
+width: $xxl10;
 }
 
 .logo {
-  display: inline-block;
-  width: 40%;
-
+  margin-left: $m;
   img {
-    width: 30%;
+    width: $xxl6;
   }
 }
 
 .items-nav  {
-  float: right;
-  margin-top: $s;
+  margin-top: $xs;
+  padding-left: $xxl;
+  width: $xxl5;
 }
 

@@ -4,9 +4,12 @@
 
 .form-butoon {
   display: block;
+  background-color: transparentize($color: $blue-main, $amount: 0.8);
+  border: $blue-secondary solid 1px;
   border-radius: $size;
   margin-bottom: 10px;
-  padding: 10px 16px;
+  margin-top: 10px;
+  padding: 10px 14px;
   outline: none;
   width: 100%;
 }

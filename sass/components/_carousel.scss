@@ -16,15 +16,18 @@
     border-style: none;
     padding: 6px;
     background-color: $white;
-    border-radius: $xs;
+    border-radius: $xxl5;
 
     &:hover {
       background-color: $blue-main;
     }
   }
-  margin-left: 50%;
-  padding-bottom: $l;
+  margin-left: $xxl5;
+  padding-bottom: $s;
 }
 .dot-active {
   background-color:  $blue-secondary;
+}
+.findings-top {
+  padding-top: $s;
 }
