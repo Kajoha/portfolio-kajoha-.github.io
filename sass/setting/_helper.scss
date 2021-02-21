@@ -23,18 +23,6 @@
   }
 }
 
-.top-l {
-  padding-top: $l;
-}
-
-.top-m {
-  padding-top: $m;
-}
-
-.top-s {
-  padding-top: $s;
-}
-
 .zoom {
   transition: width 1s, height 1s, transform 1s;
  -moz-transition: width 1s, height 1s, transform 1s;
@@ -48,7 +36,6 @@
   -o-transform : scale(1.3);
  }
 }
-
 
 .container {
   display: flex;
@@ -67,32 +54,6 @@
  align-items:flex-start;
 }
 
-.titleItalic {
-  font-style: italic;
-  font-weight: normal;
-  margin: 0;
-}
-
-.title {
-  font-family: $fontMain;
-  margin: 0;
-}
-
-.margin-left {
-  margin-left: $s;
-}
-
-.center {
-  width: $xxl5;
-}
-
-.date {
-  padding-left: $xxl6;
-}
-
 .color-background {
   background-color: $blue-main;
 }
-
-
-

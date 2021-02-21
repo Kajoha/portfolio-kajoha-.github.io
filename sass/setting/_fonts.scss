@@ -8,3 +8,14 @@
 
 $fontMain: 'cocogoose';
 $global-font: 'Arial';
+
+.titleItalic {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+
+.title {
+  font-family: $fontMain;
+  margin: 0;
+}
