@@ -1,0 +1,39 @@
+#findings {
+  background-image: url('/images/backgroup/blue-xl.svg');
+  background-size: cover;
+  width: 100%;
+
+  p{
+    color: $blue-main;
+  }
+}
+
+.slide-dot {
+
+  button {
+    float: left;
+    margin-right: $value;
+    border-style: none;
+    padding: 6px;
+    background-color: $white;
+    border-radius: $xxl5;
+
+    &:hover {
+      background-color: $blue-main;
+    }
+  }
+  margin-left: $xxl5;
+  padding-bottom: $s;
+}
+
+.dot-active {
+  background-color:  $blue-secondary;
+}
+.findings-top {
+  padding-top: $s;
+}
+
+#work {
+  width: 100%;
+  height: 350px;
+}
