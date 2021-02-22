@@ -1,0 +1,21 @@
+// Setting Fonts
+
+@font-face {
+  font-family:'cocogoose';
+  src: local('cocogoose'),
+      url(/font/cocogoose.ttf) format('cocogoose');
+}
+
+$fontMain: 'cocogoose';
+$global-font: 'Arial';
+
+.titleItalic {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+
+.title {
+  font-family: $fontMain;
+  margin: 0;
+}

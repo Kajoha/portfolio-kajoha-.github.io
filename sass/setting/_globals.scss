@@ -1,0 +1,21 @@
+html {
+  background-color: $blue-main;
+  font-family: $global-font;
+  color: $white;
+  font-size: 100%;
+}
+
+body {
+  background-image: url('/images/backgroup.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: $title-h1;
+}
+
+h2 {
+  font-size: $title-h2;
+}
+

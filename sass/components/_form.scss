@@ -1,0 +1,37 @@
+#contact-me {
+  padding-left: 32%;
+}
+
+.form-butoon {
+  display: block;
+  background-color: transparentize($color: $blue-main, $amount: 0.8);
+  border: $blue-secondary solid 1px;
+  border-radius: $size;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 14px;
+  outline: none;
+  width: 100%;
+}
+
+.width {
+  margin-bottom: $xl;
+}
+
+.button {
+    background-color: $white;
+    border: none;
+    border-radius: $size;
+    color: $blue-main;
+    padding: 8px 30px;
+    &:hover {
+      background-color: $blue-secondary;
+    }
+
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 80%;
+    outline: none;
+    text-transform: capitalize;
+}
+
