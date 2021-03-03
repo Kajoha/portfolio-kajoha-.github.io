@@ -1,20 +1,20 @@
+.content-github {
+  border-radius: 0.5%;
+  height: $l;
+  width: $xxl6;
+}
+
+.img-github {
+  width: 65px;
+  width: 65px;
+}
+
 .social {
   width: 50px;
   height: 130px;
 }
 
-#github {
-  padding-top: $l;
-  width: 100%;
-}
-
-#img-github {
-  width: 65px;
-  width: 65px;
-}
-
-#content-github {
-  border-radius: 0.5%;
-  height: 300px;
-  width: 700px;
+.social-item:hover {
+  border-radius: $xxl10;
+  box-shadow: 3px 2px $blue-secondary;
 }

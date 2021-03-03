@@ -1,5 +1,18 @@
-#contact-me {
-  padding-left: 32%;
+.button {
+  background-color: $white;
+  border: none;
+  border-radius: $size;
+  color: $blue-main;
+  padding: 8px 30px;
+  &:hover {
+    background-color: $blue-secondary;
+  }
+
+  cursor: pointer;
+  justify-content: center;
+  margin-left: 80%;
+  outline: none;
+  text-transform: capitalize;
 }
 
 .form-butoon {
@@ -15,23 +28,21 @@
 }
 
 .width {
-  margin-bottom: $xl;
+  margin-bottom: $m;
 }
 
-.button {
-    background-color: $white;
-    border: none;
-    border-radius: $size;
-    color: $blue-main;
-    padding: 8px 30px;
-    &:hover {
-      background-color: $blue-secondary;
-    }
+form {
+  input {
+    color: $white;
+  }
+  input:focus {
+    border: $white solid 1px;
+  }
 
-    cursor: pointer;
-    justify-content: center;
-    margin-left: 80%;
-    outline: none;
-    text-transform: capitalize;
+  textarea {
+    color: $white;
+  }
+  textarea:focus {
+    border: $white solid 1px;
+  }
 }
-

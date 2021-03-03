@@ -1,11 +1,11 @@
-#findings {
-  background-image: url('/images/backgroup/blue-xl.svg');
+.dot-active {
+  background-color:  $blue-secondary;
+}
+
+.findings {
+  background-image: url('../../images/backgroup/blue-xl.svg');
   background-size: cover;
   width: 100%;
-
-  p{
-    color: $blue-main;
-  }
 }
 
 .slide-dot {
@@ -26,14 +26,7 @@
   padding-bottom: $s;
 }
 
-.dot-active {
-  background-color:  $blue-secondary;
-}
-.findings-top {
-  padding-top: $s;
-}
-
-#work {
-  width: 100%;
+.work {
+  width: $xxl10;
   height: 350px;
 }

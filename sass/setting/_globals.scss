@@ -1,14 +1,15 @@
-html {
-  background-color: $blue-main;
-  font-family: $global-font;
-  color: $white;
-  font-size: 100%;
-}
-
 body {
-  background-image: url('/images/backgroup.svg');
+  background-image: url('../../images/backgroup/backgroup.svg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+html {
+  background-color: $blue-main;
+  color: $white;
+  font-family: $global-font;
+  font-size: $xxl10;
+  line-height: 1.5;
 }
 
 h1 {
@@ -18,4 +19,3 @@ h1 {
 h2 {
   font-size: $title-h2;
 }
-

@@ -1,21 +1,43 @@
 //Navegations
-#nav {
-padding-top: $xs;
-background-color: transparentize($color: $blue-main, $amount: 0.3);
-position: fixed;
-width: $xxl10;
-}
 
-.logo {
-  margin-left: $m;
-  img {
-    width: $xxl6;
-  }
+.active-nav {
+  border-bottom: 2px solid $white;
 }
 
 .items-nav  {
-  margin-top: $xs;
-  padding-left: $xxl;
+  margin-top: $size;
+  padding-left: $l;
   width: $xxl5;
 }
 
+.logo {
+  img {
+    width: $xxl6;
+  }
+  margin-left: $s;
+}
+
+.nav {
+  background-color: transparentize($color: $blue-main, $amount: 0.3);
+  padding-top: $xs;
+  position: fixed;
+  width: $xxl10;
+  }
+
+
+.style-link {
+  a {
+    color: $white;
+    font-family: $fontMain;
+    font-weight: 500;
+    font-size: $parra;
+    margin-right: $size;
+    padding-bottom: 5px;
+    text-decoration: none;
+    &:hover{
+      color: $blue-secondary;
+      border-bottom: 2px solid;
+      transition: border-bottom-color .6s ease-in-out;
+    }
+  }
+}

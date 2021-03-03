@@ -1,46 +1,31 @@
 #image-welcome {
-  height: 379px;
-  width: 380px;
-
   background-image:
-    url('/images/banner/karen-mendez-home.png');
-  border-radius: 50%;
+    url('../../images/banner/home-karen-Mendez.jpg');
   &:hover {
-    background-image: url('/images/banner/karen-mendez-home-color.png');
-    border-radius: 50%;
+    background-image: url('../../images/banner/home-karen-Mendez-color.jpg');
   }
+
+  height: 400px;
+  margin-left: $s;
+  width: 380px;
 }
 
-#more-about-me {
-  margin-top: $m;
-  #link {
-    margin-left: $xl;
+#link {
+  img {
+    width: 100px;
   }
-}
-
-.paragraph{
-  font-size: $parra-large;
-  font-style: italic;
-  margin-left: $m;
-  width: $xxl6;
+  margin-left: $xxl5;
 }
 
 #photo-about-me-home {
 
   background-image:
-    url('/images/banner/more-about-me-home.png');
-  border-radius: 50%;
+    url('../../images/banner/home-karen.jpg');
   &:hover {
-    background-image: url('/images/banner/more-about-me-home-color.png');
-    border-radius: 50%;
+    background-image: url('../../images/banner/home-karen-color.jpg');
   }
 
   height: 297px;
   margin-left: $m;
   width: 307px;
-
-}
-
-#link {
-  margin-left: $xxl6;
 }

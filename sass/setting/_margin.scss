@@ -1,6 +1,30 @@
+.banner {
+  width: $xxl10;
+  }
 
-.top-l {
-  padding-top: $l;
+.center {
+  margin: 0 auto;
+  width: $xxl8;
+}
+
+.p-left-xxl {
+  padding-left: $xxl;
+}
+
+.m-left-xs {
+  margin-left: $xs;
+}
+
+.m-left-s {
+  margin-left: $s;
+}
+
+.m-left-m {
+  margin-left: $m;
+}
+
+.m-left-xl {
+  margin-left: $xl;
 }
 
 .top-m {
@@ -11,15 +35,6 @@
   padding-top: $s;
 }
 
-
-.margin-left {
-  margin-left: $s;
-}
-
-.center {
-  width: $xxl5;
-}
-
-.date {
-  padding-left: $xxl6;
+.top-xs {
+  padding-top: $xs;
 }

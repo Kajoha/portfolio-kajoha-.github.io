@@ -9,7 +9,19 @@
 $fontMain: 'cocogoose';
 $global-font: 'Arial';
 
-.titleItalic {
+.paragraph{
+  font-size: $parra-large;
+  font-style: italic;
+  margin-left: $l;
+  width: $xxl6;
+}
+
+.quote {
+  color: $blue-main;
+  font-weight: 600;
+}
+
+.title-italic {
   font-style: italic;
   font-weight: normal;
   margin: 0;

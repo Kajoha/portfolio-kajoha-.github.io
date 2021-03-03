@@ -23,118 +23,128 @@
 
   <body>
 
-    <div id="nav" class="flex-between">
-      <div class="logo">
-       <a href="index.html"><img src="images/logo.svg" alt="Logo Enka-Creative"></a>
-      </div>
-      <div class="items-nav style-link">
-        <a href="index.html">Home</a>
-        <a href="about-me.html">About me</a>
-        <a href="design.html">Design</a>
-        <a href="web-development.html">Web</a>
-        <a href="contact.html">Contact</a>
-        </ul>
+    <div class="nav">
+      <div class="wrapper flex-between ">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.svg" alt="Logo Enka-Creative"></a>
+        </div>
+        <div class="items-nav style-link">
+          <a href="index.html" class="active-nav">Home</a>
+          <a href="./about-me/about-me.html">About me</a>
+          <a href="./design/design.html">Design</a>
+          <a href="./web-development/web-development.html">Web</a>
+          <a href="./contact/contact.html">Contact</a>
+        </div>
       </div>
     </div>
 
     <div class="wrapper">
 
-      <div id="welcome" class="container top-l">
+      <div id="welcome" class="container top-m">
         <div id="image-welcome">
         </div>
-        <div id="title-home" class="margin-left">
-          <h1 class="titleItalic">Hi!</h1>
-          <h1 class="title">I am Karen Méndez</h1>
-          <h1 class="titleItalic">This is my portfolio.</h1>
+        <div id="title-home" class="m-left-s">
+          <h1 class="title-italic">Hi!</h1>
+          <h1 class="title box-shadow">I'm Karen Méndez</h1>
+          <h1 class="title-italic">This is my portfolio.</h1>
         </div>
       </div>
 
-      <div id="more-about-me" class="container">
-        <p class="paragraph">Mi formación profesional me ha permitido
-          ser transversal y complementar mis
-          conocimientos técnicos con mi proceso
-          creativo.</p>
+      <div id="more-about-me" class="container top-s">
+        <p class="paragraph">My professional training has allowed me to be transversal and complement my technical knowledge with my creative process.</p>
       </div>
-      <div id="link" class="style-link"><a href="about-me.html">formación profesional aquí</a> </div>
+      <div id="link" class="style-link"><img src="images/elements/arrow-arrow.svg" alt="flecha señalando el link"><a href="about-me.html" class="m-left-xs">Professional training HERE!</a> </div>
 
       <div id="social" class="social">
-        <a href=""><img src="/images/elements/linkedin.svg" alt="ver perfil en linkedin"></a>
-        <a href=""><img src="/images/elements/instagram.svg" alt="ver perfil en Instagram"></a>
-        <a href=""><img src="/images/elements/behance.svg" alt="ver perfil en behance"></a>
-        <a href=""><img src="/images/elements/twitter.svg" alt="ver perfil en twitter"></a>
+        <a href="" class="social-item"><img src="images/elements/linkedin.svg" alt="ver perfil en linkedin"></a>
+        <a href="" class="social-item"><img src="images/elements/instagram.svg" alt="ver perfil en Instagram"></a>
+        <a href="" class="social-item"><img src="images/elements/behance.svg" alt="ver perfil en behance"></a>
+        <a href="" class="social-item"><img src="images/elements/twitter.svg" alt="ver perfil en twitter"></a>
       </div>
 
       <div id="about-me-home" class="container">
-        <div id="photo-about-me-home"></div>
-        <div id="events" class="margin-left">
-          <h2>Últimos eventos</h2>
-          <p>Drupal camp Costa Rica 2020 - Staff técnico</p>
+        <div id="photo-about-me-home">
+        </div>
+        <div id="events" class="m-left-s">
+          <h2>Latest events</h2>
+          <p>Drupal camp Costa Rica 2020 - Technical staff</p>
           <p>Startup Weeked Costa Rica 2019 - Pitcher</p>
-          <p>Nosotras Women Conecting 2019 - Lideresa</p>
+          <p>Nosotras Women Conecting 2019 - Leader</p>
           <p>ACNUR, Agencia de la ONU para Refugiados 2019 - Speaker</p>
         </div>
       </div>
 
-      <div id="github" class="container">
+      <div id="github" class="container banner top-m">
 
-        <div id="img-github"><img src="/images/elements/github.svg" alt="Icono de github"></div>
-        <h2 class="margin-left" >Mi flujo de trabajo en GitHub</h2>
+        <div class="img-github"><img src="images/elements/github.svg" alt="Icono de github"></div>
+        <h2 class="m-left-s" >My workflow in GitHub</h2>
       </div>
-      <div id="content-github"></div>
+      <div class="content-github"></div>
 
     </div>
 
-    <div id="findings">
-      <div class="container findings-top">
-        <div><img src="/images/carousel/diana-gutierrez.png" alt="Fotografia de Diana Gutierrez"></div>
-        <p class="center margin-left">
-           “El trabajo de Karen es sencillamente impecable. Además de su trato amable, entiende a la perfección las necesidades de mi empresa y no solamente hace lo que solicito sino que me da ideas prácticas y consejos útiles. Tiene un sentido de urgencia y amor por su trabajo que admiro y me hace seguirla eligiendo.”
+    <div class="findings">
+      <div class="wrapper">
+        <div class="container center top-s">
+          <img src="images/carousel/diana-gutierrez.png" alt="Fotografia de Diana Gutierrez">
+          <p class="m-left-s quote">
+             “Karen's work is simply impeccable. In addition to her kind treatment, she perfectly understands the needs of my company and not only does what I request but she gives me practical ideas and useful advice. She has a sense of urgency and love for her work that I admire and keeps me choosing her.”
+          </p>
+        </div>
+        <p class="p-left-xxl quote">
+          Diana Gutierrez - La Ropavejera.
         </p>
-      </div>
-      <p class="date">
-        Diana Gutierrez - La Ropavejera.
-      </p>
-      <div class="slide-dot clearfix">
-        <button class="dot dot-active"></button>
-        <button class="dot"></button>
-        <button class="dot"></button>
+        <div class="slide-dot clearfix">
+          <button class="dot dot-active"></button>
+          <button class="dot"></button>
+          <button class="dot"></button>
+        </div>
       </div>
     </div>
 
     <div class="wrapper">
 
-      <div id="contact-me" class="flex-between top-l">
+      <div id="contact-me" class="flex-between top-m m-left-xl">
         <div id="form">
           <form class="width">
-            <h2>Contacta conmigo</h2>
-            <label>Nombre</label>
-            <input class="form-butoon" placeholder="Tu nombre" autocomplete="off" required>
-            <label>Teléfono</label>
-            <input class="form-butoon" type="text" placeholder="Tu teléfono" autocomplete="off">
-            <label>Correo electrónico</label>
-            <input class="form-butoon" type="email" placeholder="Tu email" autocomplete="off" required>
-            <label>Consulta</label>
-            <textarea class="form-butoon" cols="38" rows="5" required></textarea>
-            <button class="button" type="submit" value="Enviar">Enviar</button>
+            <h2>Contact me</h2>
+            <div class="line">
+              <label for="name">Name</label>
+              <input id="name" class="form-butoon requerido" autocomplete="off">
+            </div>
+            <div class="line">
+              <label for="phone" >Phone</label>
+              <input id="phone" class="form-butoon requerido" type="text" autocomplete="off">
+            </div>
+            <div class="line">
+              <label for="mail">E-mail</label>
+              <input id="mail" class="form-butoon requerido" type="email" autocomplete="off">
+            </div>
+            <div class="line">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-butoon requerido" cols="38" rows="5"></textarea>
+            </div>
+            <button class="button" type="submit" value="Enviar">Send</button>
           </form>
         </div>
 
-        <div id="social" class="social ">
-          <a href=""><img src="/images/elements/linkedin.svg" alt="ver perfil en linkedin"></a>
-          <a href=""><img src="/images/elements/instagram.svg" alt="ver perfil en Instagram"></a>
-          <a href=""><img src="/images/elements/behance.svg" alt="ver perfil en behance"></a>
-          <a href=""><img src="/images/elements/twitter.svg" alt="ver perfil en twitter"></a>
+        <div class="social">
+          <a href="" class="social-item"><img src="images/elements/linkedin.svg" alt="ver perfil en linkedin"></a>
+          <a href="" class="social-item"><img src="images/elements/instagram.svg" alt="ver perfil en Instagram"></a>
+          <a href="" class="social-item"><img src="images/elements/behance.svg" alt="ver perfil en behance"></a>
+          <a href="" class="social-item"><img src="images/elements/twitter.svg" alt="ver perfil en twitter"></a>
         </div>
       </div>
 
       <div id="footer">
-        <div id="logo-karen" class="color-background">
-          <img src="/images/karen-mendez.svg" alt="Logo Karen Méndez">
+        <div class="logo-karen color-background">
+          <img src="images/karen-mendez.svg" alt="Logo Karen Méndez">
         </div>
       </div>
 
     </div>
 
+    <script src="js/form.js"></script>
     <script src="js/script.js"></script>
   </body>
 
