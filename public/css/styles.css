@@ -344,6 +344,11 @@ h1 {
 h2 {
   font-size: 1.9rem; }
 
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  margin-top: 3rem; }
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -493,14 +498,34 @@ h2 {
   height: 393px;
   overflow: hidden; }
 
+.circulo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(131, 104, 207, 0.8); }
+
 .content-github {
-  border-radius: 0.5%;
   height: 20rem;
-  width: 65%; }
+  width: 80%; }
 
 .img-github {
   width: 65px;
   width: 65px; }
+
+.listContent {
+  color: #081329;
+  margin-left: 3rem;
+  text-align: center; }
+  .listContent a {
+    border-bottom: 2px solid #081329;
+    color: #081329;
+    font-family: "cocogoose";
+    font-weight: 500;
+    text-decoration: none; }
+    .listContent a:hover {
+      color: #ffffff;
+      border-bottom: 2px solid;
+      transition: border-bottom-color .6s ease-in-out; }
 
 .social {
   width: 50px;
