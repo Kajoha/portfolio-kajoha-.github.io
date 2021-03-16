@@ -20,3 +20,5 @@ The target audience of my portfolio are the creative agencies and large companie
 * Expose my individuality.
 * Reflect my creative process.
 * Make contact information visible.
+
+#
