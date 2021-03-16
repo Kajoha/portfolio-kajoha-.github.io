@@ -421,6 +421,9 @@ h3 {
 .top-xs {
   padding-top: 3rem; }
 
+.bottom-s {
+  margin-bottom: 6rem; }
+
 .active-nav {
   border-bottom: 2px solid #ffffff; }
 
@@ -498,31 +501,31 @@ h3 {
   height: 393px;
   overflow: hidden; }
 
-.circulo {
+.round {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   background-color: rgba(131, 104, 207, 0.8); }
 
-.content-github {
+.github__content {
   height: 20rem;
   width: 80%; }
 
-.img-github {
+.github__img {
   width: 65px;
   width: 65px; }
 
-.listContent {
+.list-content {
   color: #081329;
   margin-left: 3rem;
   text-align: center; }
-  .listContent a {
+  .list-content a {
     border-bottom: 2px solid #081329;
     color: #081329;
     font-family: "cocogoose";
     font-weight: 500;
     text-decoration: none; }
-    .listContent a:hover {
+    .list-content a:hover {
       color: #ffffff;
       border-bottom: 2px solid;
       transition: border-bottom-color .6s ease-in-out; }
@@ -531,30 +534,33 @@ h3 {
   width: 50px;
   height: 130px; }
 
-.social-item:hover {
+.social__item:hover {
   border-radius: 100%;
   box-shadow: 3px 2px #20c9ac; }
-
-.dot-active {
-  background-color: #20c9ac; }
 
 .findings {
   background-image: url("../../images/backgroup/blue-xl.svg");
   background-size: cover;
   width: 100%; }
 
-.slide-dot {
+.js-content-hidden {
+  display: none; }
+
+.slide__dot {
   margin-left: 50%;
   padding-bottom: 6rem; }
-  .slide-dot button {
+  .slide__dot button {
     float: left;
     margin-right: 1%;
     border-style: none;
     padding: 6px;
     background-color: #ffffff;
     border-radius: 50%; }
-    .slide-dot button:hover {
+    .slide__dot button:hover {
       background-color: #081329; }
+
+.slider__dot--active {
+  background-color: #081329; }
 
 .work {
   width: 100%;
@@ -613,7 +619,7 @@ form textarea:focus {
   background-image: url("../../images/elements/blue-small.svg");
   background-size: cover; }
 
-.blue-line {
+.blue__line {
   height: 3rem; }
 
 .item {
