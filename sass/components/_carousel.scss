@@ -1,14 +1,14 @@
-.dot-active {
-  background-color:  $blue-secondary;
-}
-
 .findings {
   background-image: url('../../images/backgroup/blue-xl.svg');
   background-size: cover;
   width: 100%;
 }
 
-.slide-dot {
+.js-content-hidden {
+  display: none;
+}
+
+.slide__dot {
 
   button {
     float: left;
@@ -22,9 +22,15 @@
       background-color: $blue-main;
     }
   }
+
   margin-left: $xxl5;
   padding-bottom: $s;
 }
+
+.slider__dot--active {
+  background-color: $blue-main;
+}
+
 
 .work {
   width: $xxl10;
