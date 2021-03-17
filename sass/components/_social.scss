@@ -35,6 +35,10 @@
   text-align: center;
 }
 
+.permanently {
+  position: fixed;
+}
+
 .social {
   width: 50px;
   height: 130px;
@@ -43,4 +47,15 @@
 .social__item:hover {
   border-radius: $xxl10;
   box-shadow: 3px 2px $blue-secondary;
+}
+
+.social__img:hover,
+.social__img:focus {
+  filter: invert(60%) sepia(87%) saturate(366%) hue-rotate(120deg) brightness(90%) contrast(97%);
+}
+
+.skill__progress {
+  width: 150px;
+  margin-left: 10px;
+  box-shadow: 0 8px 6px -6px $blue-secondary;
 }

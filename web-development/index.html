@@ -40,9 +40,99 @@
 
   <div id="b-web" class="bg"></div>
 
-
-
   <div class="wrapper">
+
+    <div class="permanently">
+      <a href="https://www.behance.net/enkacreative" target="_blank"> <img class="github__img social__img"
+          src="../images/elements/github.svg" alt="go to github"> </a>
+    </div>
+
+    <div>
+      <h1 class="title color-background m-left-m">Projects</h1>
+
+      <div class="center">
+        <div id="project-carousel" class="flex-between top-xs">
+          <img class="img" src="../images/desing/creative-karen.png" alt="" class="m-left-s">
+          <p class="m-left-xs">Tristique odio magnis laoreet fusce cras cubilia pulvinar, inceptos auctor egestas
+            potenti
+            ad ut quam, quisque nisi dapibus sollicitudin convallis nam. Fames non nisi parturient egestas himenaeos
+            viverra, per inceptos est sociis litora ridiculus.</p>
+        </div>
+      </div>
+      <div class="center">
+        <div id="project-carousel" class="flex-between m-left-m">
+          <img class="img" src="../images/desing/collective.png" alt="" class="m-left-s">
+          <p class="m-left-xs">Tristique odio magnis laoreet fusce cras cubilia pulvinar, inceptos auctor egestas
+            potenti
+            ad ut quam, quisque nisi dapibus sollicitudin convallis nam. Fames non nisi parturient egestas himenaeos
+            viverra, per inceptos est sociis litora ridiculus.</p>
+        </div>
+      </div>
+      <div class="center">
+        <div id="project-carousel" class="flex-between">
+          <img class="img" src="../images/desing/listening.png" alt="" class="m-left-s">
+          <p class="m-left-xs">Tristique odio magnis laoreet fusce cras cubilia pulvinar, inceptos auctor egestas
+            potenti
+            ad ut quam, quisque nisi dapibus sollicitudin convallis nam. Fames non nisi parturient egestas himenaeos
+            viverra, per inceptos est sociis litora ridiculus.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="slider">
+      <div class="top-s center">
+        <div class="container">
+          <a href="#slider-1"><img id="arrow1" class="arrow" src="../images/elements/arrow-left.svg"
+              alt="Flecha izquierda"></a>
+
+          <!--slider 1-->
+          <div id="slider-1" class="slider__box container">
+            <div id="title-work" class="m-left-s color-background">
+              <h2>Ux -Ui</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit fames aptent
+                Lorem ipsum dolor sit amet consectetur adipiscing elit fames aptent
+              </p>
+            </div>
+            <div id="img-work" class="flex-corousel">
+              <img class="img m-left-xs " src="../images/carousel/1.png" alt="">
+            </div>
+          </div>
+
+          <!--slider 2-->
+          <div id="slider-2" class="slider__box container">
+            <div id="title-work" class="m-left-s color-background">
+              <h2>Ux -Ui</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit fames aptent.</p>
+            </div>
+            <div id="img-work" class="flex-corousel">
+              <img class="img m-left-xs " src="../images/carousel/1.png" alt="">
+            </div>
+          </div>
+
+          <!--slider 3-->
+          <div class="slider__box container">
+            <div id="title-work" class="m-left-s color-background">
+              <h2>Ux -Ui</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit fames aptent.</p>
+            </div>
+            <div id="img-work" class="flex-corousel">
+              <img class="img m-left-xs " src="../images/carousel/1.png" alt="">
+            </div>
+          </div>
+
+          <a href="#slider-2"><img id="id=" arrow1"" class="arrow m-left-xs " src="../images/elements/arrow-right.svg"
+              alt="Flecha Derecha"></a>
+        </div>
+      </div>
+
+
+      <div class="slide__dot clearfix">
+        <button onclick="changeBoxByDot(0,this)" class="dot slider__dot--active"></button>
+        <button onclick="changeBoxByDot(1,this)" class="dot"></button>
+        <button onclick="changeBoxByDot(2,this)" class="dot"></button>
+      </div>
+
+    </div>
 
     <div id="footer">
       <div class="logo-karen color-background">
@@ -54,7 +144,7 @@
 
 
 
-  <script src="../js/script.js"></script>
+  <script src="../js/slider.js"></script>
 </body>
 
 </html>

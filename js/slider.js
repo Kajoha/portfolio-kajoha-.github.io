@@ -52,4 +52,11 @@ function changeBoxByDot(index, obj) {
   changeBox2(null, index);
 }
 
+document.getElementById('arrow2').addEventListener('click', (event) => {
+  changeBox2(true);
+});
+document.getElementById('arrow1').addEventListener('click', (event) => {
+  changeBox2(false);
+});
+
 window.setInterval(changeBox, 20000);

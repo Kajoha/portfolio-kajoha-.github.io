@@ -390,6 +390,25 @@ h3 {
     -webkit-transform: scale(1.3);
     -o-transform: scale(1.3); }
 
+.shake:hover {
+  animation: shaking 0.10s; }
+
+@keyframes shaking {
+  0% {
+    -webkit-transform: rotateZ(-10deg); }
+  50% {
+    -webkit-transform: rotateZ(0deg) scale(0.1); }
+  100% {
+    -webkit-transform: rotateZ(5deg); } }
+
+.neon {
+  letter-spacing: -2px;
+  color: #fff;
+  text-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 7px #fff, 0 0 9px #00fff2, 0 0 11px #07e9de;
+  -webkit-text-fill-color: #F4ECFF;
+  -webkit-text-stroke-color: #46ebf7;
+  -webkit-text-stroke-width: 0.2px; }
+
 .banner {
   width: 100%; }
 
@@ -414,6 +433,9 @@ h3 {
 
 .top-m {
   padding-top: 10rem; }
+
+.top-min {
+  margin-top: 20px; }
 
 .top-s {
   padding-top: 6rem; }
@@ -530,6 +552,9 @@ h3 {
       border-bottom: 2px solid;
       transition: border-bottom-color .6s ease-in-out; }
 
+.permanently {
+  position: fixed; }
+
 .social {
   width: 50px;
   height: 130px; }
@@ -537,6 +562,15 @@ h3 {
 .social__item:hover {
   border-radius: 100%;
   box-shadow: 3px 2px #20c9ac; }
+
+.social__img:hover,
+.social__img:focus {
+  filter: invert(60%) sepia(87%) saturate(366%) hue-rotate(120deg) brightness(90%) contrast(97%); }
+
+.skill__progress {
+  width: 150px;
+  margin-left: 10px;
+  box-shadow: 0 8px 6px -6px #20c9ac; }
 
 .findings {
   background-image: url("../../images/backgroup/blue-xl.svg");
@@ -628,4 +662,9 @@ form textarea:focus {
 
 .name {
   font-weight: bold;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 25px; }
+
+.name-description {
+  margin-top: 2px; }
