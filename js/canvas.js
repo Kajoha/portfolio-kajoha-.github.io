@@ -10,3 +10,5 @@ const stars = background.createStars(60);
 setInterval(() => {
   background.render(stars);
 }, 1000);
+
+

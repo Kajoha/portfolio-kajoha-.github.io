@@ -76,5 +76,4 @@ export default class Background {
 
     this.counter++;
   }
-
 }
