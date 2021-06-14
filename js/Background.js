@@ -1,12 +1,12 @@
 export default class Background {
   color = '';
-  canvas = document.querySelector('#canvas');
-  ctx = canvas.getContext('2d');
+  canvas = '';
+  ctx = '';
   color = '';
   width = '';
   height = '';
   backgroundColor = '';
-  counter = 0;
+
   constructor(color, canvas, ctx) {
     this.color = color;
     this.canvas = canvas;
