@@ -1,7 +1,14 @@
 body {
   background-image: url('../../images/backgroup/backgroup.svg');
+  background: canvas(mybackground);
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+canvas {
+  position: absolute;
+  z-index: -3;
 }
 
 html {

@@ -2,6 +2,7 @@
 //
 // Project Briefcase - Karen Méndez
 //
+
 const apiUrl = 'https://api.github.com/users/Kajoha/repos';
 const divContent = document.querySelector('.github__content');
 
@@ -13,7 +14,7 @@ function loadRepos(r) {
   for (let i = 0; i < repos.length; i += 1) {
     if (i === 4) break;
     contentData += `
-    <div class="list-content round">
+    <div class='list-content round'>
       <div>
         <h3>${repos[i].name}</h3>
         <a target="_blank" href="${repos[i].html_url}">Click to go</a>
