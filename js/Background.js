@@ -24,7 +24,7 @@ export default class Background {
   }
 
   createStars(spacing) {
-    const maxStarRadius = 2;
+    const maxStarRadius = 3;
     const stars = [];
 
     for (let x = 0; x < this.width; x += spacing) {
